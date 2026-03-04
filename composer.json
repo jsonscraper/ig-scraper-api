@@ -1,0 +1,50 @@
+{
+    "name": "jsonscraper/ig-scraper-api",
+    "description": "IG Scraper API for PHP",
+    "homepage": "https://github.com/evelode/tiktok-api-php",
+    "type": "library",
+    "require": {
+        "php": ">=7.0",
+        "sergeykomlev/lazyjsonmapper": "^2.0.0",
+        "guzzlehttp/guzzle": "^7.4",
+        "ext-curl": "*",
+        "ext-mbstring": "*",
+        "ext-gd": "*",
+        "ext-exif": "*",
+        "ext-zlib": "*",
+        "ext-bcmath": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jsonscraper",
+            "email": "contact@jsonscraper.com",
+            "homepage": "https://jsonscraper.com",
+            "role": "Developer"
+        }
+    ],
+    "suggest": {
+        "ext-curl": "Required for CURL handler support in requests"
+    },
+    "autoload": {
+        "psr-4": {
+            "IGScraperAPI\\": "src/"
+        }
+    },
+    "keywords": [
+        "php",
+        "php7",
+        "php8",
+        "rest-api",
+        "php-library",
+        "php-fpm", 
+        "scrapper", 
+        "php8",
+        "ig",
+        "ig-scraper",
+        "ig-api",
+        "igapi",
+        "ig-automation",
+        "ig-downloader",
+    ]
+}
