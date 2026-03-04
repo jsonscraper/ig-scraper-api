@@ -45,6 +45,6 @@
         "ig-api",
         "igapi",
         "ig-automation",
-        "ig-downloader",
+        "ig-downloader"
     ]
 }
